@@ -1,0 +1,37 @@
+body {
+    background: #1d1d1d;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards {
+    background: beige;
+    color: black;
+    margin: 10px auto;
+    width: 400px;
+    box-shadow: 0px 0px 10px beige;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cards__card {
+    margin: 8px auto;
+    background-color: lightblue;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card__titulo {
+    font-weight: bold;
+}
+
+.card__enlace {
+    background-color: green;
+    padding: 10px;
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.card__enlace--rojo{
+    background-color: red;
+}
